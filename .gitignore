@@ -1,2 +1,12 @@
-node_modules
-.gitignore
+# Ignore dependencies
+/node_modules
+/vendor
+
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+.env.test
+.env.production
+
